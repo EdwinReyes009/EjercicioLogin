@@ -10,11 +10,7 @@ function check() {
     usuario_psw = document.getElementById("contraseña").value;
 
     if (usuario_email.length == 0 || usuario_psw.length == 0) {
-        Swal.fire({
-            icon: 'error',
-            title: 'Oops...',
-            text: 'Debes llenar todos los campos!',
-        })
+        alert('Rellena todos los espacios')
     } else {
         entrar();
     }
@@ -41,7 +37,8 @@ function entrar() {
     }).then ( function(result) {
         console.log ("response", result) ;
           if ( result.error){
-            swal.fire(result.message, "", "error");
+       //     swal.fire(result.message, "", "error");
+       alert('Error');
            } else {
             window.open(result.url, '_parent');
            }
