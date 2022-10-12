@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>formulario de registro</title>
+</head>
+<body>
+
+<!-- Inicio de block -->
+<div class="block-style">
+    <div class="container formUser">
+        <div class="row">
+            <div class="col-12">
+                <h3>Nombre:</h3>
+                <div class="datosCenter">
+                    <input type="text">
+                </div>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3>Apellido materno:</h3>
+                <div class="datosCenter">
+                    <input type="text">
+                </div>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3>Apellido paterno:</h3>
+                <div class="datosCenter">
+                    <input type="text">
+                </div>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3>Correo:</h3>
+                <div class="datosCenter">
+                    <input type="text">
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h3>Perfil:</h3>
+                <div class="perfil">
+                   <select name="selCombo" SIZE=1 onChange="javascript:alert('prueba');"> 
+                    <option value="Administrador">Administrador</option>
+                    <option value="Reportero">Reportero</option>
+                    <option value="Usuario">Usuario</option>
+                </select>  
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3>Password:</h3>
+                <div class="datosCenter">
+                    <input type="text">
+                </div>
+               
+            </div>
+        </div>
+        
+        <div class="row">
+            <button class="btn-style"> <a href="#">Registrarse</a></button>      
+        </div>
+    </div>
+</div>
+
+    <!--<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="logic/login.js"></script> 
+</body>
+
+</html>

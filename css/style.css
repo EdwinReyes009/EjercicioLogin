@@ -56,3 +56,15 @@
 .btn-style:hover{
     background: #FFF;
 }
+
+.formUser h3{
+    text-align: center;
+}
+
+.formUser .datosCenter{
+    margin-left: 25%;
+}
+
+.perfil{
+    margin-left: 30%;
+}
